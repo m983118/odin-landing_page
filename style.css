@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
