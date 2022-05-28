@@ -5,8 +5,103 @@ body {
 .top,
 .footer {
     background-color: #1F2937;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+    font-size: 18px;
+}
+
+.header,
+.slogan {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 64px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;    
+}
+
+.hero_sec {
+    font-size: 18px;
+}
+
+.slogan_content {
+    width: 450px;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.info_title {
+	text-align : center;
+	padding: 16px;
+}
+
+.info_content {
+	display: flex;
+	padding: 0px 64px;
+	padding-bottom: 32px;
+	justify-content: space-evenly;
+}
+
+.info_content1,
+.info_content2,
+.info_content3,
+.info_content4 {
+	text-align: center
 }
 
 .quote {
     background-color: #e5e7eb;
+	padding: 16px 256px;
+}
+
+.quote_content {
+	text-align: center;
+}
+
+.quote_sign {
+	text-align: right;
+}
+
+.sign_up {
+	padding: 16px 64px;
+}
+
+.frame {
+	background-color: #3882f6;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 16px 32px;
+}
+
+.footer {
+	text-align: center;
 }
