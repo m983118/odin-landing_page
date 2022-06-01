@@ -90,11 +90,12 @@ button {
 }
 
 .quote_content {
-	padding: 64px;
+	padding-top: 64px;
 	font-size: 36px;
 	font-weight: light italic;
 	color: #1F2937;
 	font-style: italic;
+
 }
 
 .quote_sign {
@@ -105,7 +106,7 @@ button {
 }
 
 .sign_up {
-	padding: 16px 64px;
+	padding: 64px 352px;
 }
 
 .frame {
@@ -113,9 +114,24 @@ button {
 	display: flex;
 	justify-content: space-between;
 	color: white;
-	padding: 16px 32px;
+	padding: 32px 64px;
+	border-radius: 8px;
+}
+
+.frame_title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.frame_subtext {
+	font-size: 18px;
+}
+
+.frame_button {	
+	border: 2px solid white;
 }
 
 .footer {
 	text-align: center;
+	padding: 32px 0;
 }
